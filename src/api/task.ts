@@ -1,6 +1,6 @@
 import { CreateTask, UpdateTask } from "../interfaces/task.interface";
 
-const API = 'http://localhost:3000/api'
+const API = 'https://irontask.fly.dev/api'
 
 export const createTaskRequest = (task: CreateTask) => {
     return fetch(`${API}/tasks`, {
